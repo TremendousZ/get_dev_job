@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Job Search Card</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+<style>
+    .cardContainer {
+        width:40%;
+        height:35%;
+        border: 2px solid black;
+    }
+
+    .leftColumn{
+        width:60%;
+        height:100%;
+        display: inline-block;
+    }
+
+    .rightColumn{
+        width:35%;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    ul {
+        list-style-type: none;
+        margin:0;
+        margin-top: 2%;
+        position: relative;
+    }
+   
+
+    ul, p, .datePosted{
+        font-size: 2vmin;
+    }
+    .datePosted{
+        color:green;
+    }
+    
+    .buttonArea button,.appliedStatus{
+        display: block;
+        position:relative;
+        left:50%;
+        transform: translateX(-50%);
+        width: 60%;
+       
+    }
+
+    .buttonArea button{
+        margin-top: 25%;        
+        width: 60%;
+    }
+
+</style>
+<script>
+
+</script>
+    </head>
+    <body>
+        <div class='cardContainer card-panel'>
+            <div class = 'leftColumn'>
+                <div class ='BusinessInfo'>
+                    <ul>
+                        <li>Front End Web Developer</li>
+                        <li>Solugenix Corp</li>
+                        <li>Irvine, CA 92618</li>
+                        <li>60-80K Salary</li>
+                    </ul>
+                </div>
+                <div class='jobDescription'>
+                    <p>Front End Web Developer. Create REST based web 
+                        services and APIs for consumption by mobile and 
+                        web platforms. We are looking for Front End Web Developer 
+                        for our a team builder for others, but most importantly we’ve 
+                        been there. We know there is no substitute for experience,
+                        so let...</p>
+                </div>
+                <div class='datePosted'>
+                    Date Posted: 8/10/18
+                </div>
+            </div>
+            <div class="rightColumn">
+                <div class='appliedStatus'>
+                    <input type='checkbox'/>
+                    <span>Applied</span>
+                </div>
+                <div class='buttonArea'> 
+                    <button class='btn indigo'>Save</button>
+                    <button class='btn'>More Info</button>
+                    <button class ='btn'>Share</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
